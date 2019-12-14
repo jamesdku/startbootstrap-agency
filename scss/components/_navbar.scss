@@ -18,7 +18,7 @@
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: darken($primary, 60%);
     }
   }
   &.navbar-shrink {
@@ -38,7 +38,7 @@
         font-weight: bold;
         padding: 0.75em 0;
         letter-spacing: 1px;
-        color: black;
+        color: white;
         
         @include heading-font;
         &.active,

@@ -14,15 +14,19 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: white;
 }
 
 a:hover {
-  color: #fec503;
+  color: #e6e6e6;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: white !important;
+}
+
+.text-red {
+  color: #dc3545 !important;
 }
 
 h1,
@@ -61,12 +65,12 @@ h6 {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: white;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: white;
   text-shadow: none;
 }
 
@@ -93,13 +97,13 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: white;
+  border-color: white;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #ececec !important;
+  border-color: #ececec !important;
   color: white;
 }
 
@@ -118,17 +122,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: white;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: white;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #666666;
 }
 
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
@@ -140,12 +144,12 @@ img::-moz-selection {
   font-weight: bold;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: black;
+  color: white;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: white;
 }
 
 @media (min-width: 992px) {
@@ -177,6 +181,11 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
+  background-image: url("../img/stock-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
   background-color: #993333;
 }
 
@@ -246,7 +255,7 @@ header.masthead .intro-text .intro-heading {
   height: 100%;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -442,7 +451,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: white;
 }
 
 .timeline > li .timeline-image h4 {
@@ -455,6 +464,12 @@ header.masthead .intro-text .intro-heading {
   float: right;
   padding: 0 20px 0 100px;
   text-align: left;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel.push-panel-left {
+  float: left;
+  text-align: right;
+  padding: 0 20px 20px 100px;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel:before {
@@ -613,7 +628,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: white;
   box-shadow: none;
 }
 
@@ -679,5 +694,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: white;
 }

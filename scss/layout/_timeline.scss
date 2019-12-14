@@ -66,6 +66,11 @@
       float: right;
       padding: 0 20px 0 100px;
       text-align: left;
+      &.push-panel-left {
+        float: left; 
+        text-align: right; 
+        padding: 0 20px 20px 100px;
+      }
       &:before {
         right: auto;
         left: -15px;
@@ -79,6 +84,7 @@
         border-left-width: 0;
       }
     }
+    // &.timeline-inverted > 
     &:last-child {
       margin-bottom: 0;
     }
